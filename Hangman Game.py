@@ -1,5 +1,8 @@
 import random
 
+if __name__ == "__main__":
+    main()
+    
 def main():
     print(hangman_logo())
     print("Welcome in Hangman Game!\n")
@@ -108,17 +111,17 @@ def play(word, lives):
         print("\n")
     if is_guessed:
         print(f"Congrats, you guessed the word: \"{word}\"! You win!")
-        nextGame()
+        next_game()
     if is_guessed == "Quitting":
         pass
     elif not is_guessed:
         print(f"Sorry, you ran out of tries. The word was \"{word}\". Maybe next time!")
-        nextGame()
+        next_game()
 
-def nextGame():
-    nextgame=input("Do you want to play again? (yes/no): ").lower().strip()
+def next_game():
+    next_game=input("Do you want to play again? (yes/no): ").lower().strip()
 
-    if nextgame=="yes":
+    if next_game=="yes":
         main()
     else:
         print("Quitting")
@@ -224,6 +227,3 @@ def display_hangman(lives):
                 """
     ]
     return stages[lives]
-
-if __name__ == "__main__":
-    main()
