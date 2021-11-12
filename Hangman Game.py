@@ -23,7 +23,7 @@ def main():
         word = word.lower().strip()
         lives = 4
         play(word, lives)
-    elif difficulty != 1 or 2 or 3:
+    elif difficulty != 1 or difficulty != 2 or difficulty != 3:
         print("Exiting...")
 
 def choose_difficulty():
