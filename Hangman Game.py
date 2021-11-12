@@ -50,7 +50,7 @@ def choose_difficulty():
 
 def get_word(difficulty):
     # przed uruchomieniem upewnij się, że ścieżka poniżej do pliku .txt jest prawidłowa! 
-    f = open("hangman-python-kamil-kornek96/countries-and-capitals.txt")
+    f = open("countries-and-capitals.txt")
     lines = f.readlines()
     list_of_countires = [] 
     for i in lines:
