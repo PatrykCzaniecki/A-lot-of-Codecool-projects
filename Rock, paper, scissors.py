@@ -8,8 +8,7 @@ def newGame(winPlayer, winComputer):
     player=input("Wybierz Rock lub Paper lub Scissors - ")
     print("Komputer wybrał "+ computer)
 
-    if computer==player:
-        print("Remis")
+    
 
     if computer=="Rock" and player=="Paper" or computer=="Paper" and player==("Scissors") or computer==("Scissors") and player==("Rock"):
         winPlayer += 1
