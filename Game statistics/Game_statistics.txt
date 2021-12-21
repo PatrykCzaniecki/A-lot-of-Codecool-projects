@@ -1,0 +1,24 @@
+Minecraft	23	2009	Survival game	Microsoft
+World of Warcraft	14	2004	RPG	Blizzard Entertainment
+Terraria	12	2011	Action-adventure	Re-Logic
+Diablo III	12	2012	RPG	Blizzard Entertainment
+Half-Life 2	12	2004	First-person shooter	Valve Corporation
+Counter-Strike	12.5	1999	First-person shooter	Valve Corporation
+The Sims	11.24	2000	Simulation	Electronic Arts
+StarCraft	11	1998	Real-time strategy	Blizzard Entertainment
+Garry's Mod	10	2006	Sandbox	Facepunch Studios
+Half-Life	9.3	1998	First-person shooter	Valve Corporation
+The Sims 3	7.72	2009	Simulation	Electronic Arts
+Guild Wars	6.5	2005	RPG	NCsoft
+The Sims 2	6	2004	Simulation	Electronic Arts
+StarCraft II: Wings of Liberty	6	2010	Real-time strategy	Blizzard Entertainment
+Diablo II	4	2000	RPG	Blizzard Entertainment
+Populous	4	1989	Real-time strategy	Electronic Arts
+Warhammer 40,000: Dawn of War (including expansions)	4	2004	Real-time strategy	Relic Entertainment
+Doom 3	3.5	2004	First-person shooter	Activision
+EverQuest	3.5	1999	RPG	Sony Online Entertainment
+Age of Empires	3	1997	Real-time strategy	Microsoft
+Command & Conquer	3	1995	Real-time strategy	Virgin Interactive
+Crysis	3	2007	First-person shooter	Electronic Arts
+Warcraft III: Reign of Chaos	3	2002	Real-time strategy	Blizzard Entertainment
+Counter-Strike: Condition Zero	2.9	2004	First-person shooter	Valve Corporation
