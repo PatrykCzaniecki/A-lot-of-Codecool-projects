@@ -1,0 +1,41 @@
+id,submission_time,vote_number,question_id,message,image
+1,1643792210.5827725,5,1,Add good quality flour.,maka.jpg
+2,1643893754.3251922,32,2,"Use abs as key to the sorted function or list.sort:
+
+>>> lis = [1,-5,10,6,3,-4,-9]
+>>> sorted(lis, key=abs, reverse=True)
+[10, -9, 6, -5, -4, 3, 1]",no_image
+3,1643894245.0505495,13,3,"os.remove() removes a file.
+
+os.rmdir() removes an empty directory.
+
+shutil.rmtree() deletes a directory and all its contents.",no_image
+4,1643894253.7637165,3,3,"import os
+os.remove(""/tmp/<file_name>.txt"")
+Or
+
+import os
+os.unlink(""/tmp/<file_name>.txt"")
+Or
+
+pathlib Library for Python version >= 3.4
+
+file_to_rem = pathlib.Path(""/tmp/<file_name>.txt"")
+file_to_rem.unlink()",no_image
+5,1643894335.1051154,0,4,"shutil has many methods you can use. One of which is:
+
+import shutil
+
+shutil.copyfile(src, dst)
+
+# 2nd option
+shutil.copy(src, dst)  # dst can be a folder; use shutil.copy2() to preserve timestamp
+Copy the contents of the file named src to a file named dst. Both src and dst need to be the entire filename of the files, including path.
+The destination location must be writable; otherwise, an IOError exception will be raised.
+If dst already exists, it will be replaced.
+Special files such as character or block devices and pipes cannot be copied with this function.
+With copy, src and dst are path names given as strs.
+Another shutil method to look at is shutil.copy2(). It's similar but preserves more metadata (e.g. time stamps).
+
+If you use os.path operations, use copy rather than copyfile. copyfile will only accept strings.",no_image
+6,1643894407.841342,0,4,Check table --->,tabelaaaa.png

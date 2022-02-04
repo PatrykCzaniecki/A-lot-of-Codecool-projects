@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>AskMate: {{ question['title'] }}</title>
+                <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+    />
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <style>
+            table, th, td {
+            border: 1px solid black;
+             }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div align="center">
+        <a href="/"><img id="logo" src="/static/logo3.png"></a>
+        </div>
+        <div class="form-group" align="center">
+        <h1>{{ question['title'] }}</h1>
+        <table id="customers">
+            <tr>
+                <th>Views</th>
+                <th>Votes</th>
+                <th>Question</th>
+                <th>Submission Time</th>
+                {% if question['image'] != 'no_image' %}
+                <th>Question Image</th>
+                {% endif %}
+            </tr>
+            <tr>
+                <td>{{ question['view_number'] }}</td>
+                <td>
+                    <p><a href="/question/{{ question['id'] }}/vote_up"><img src="/static/up.png"></a></p>
+                    <p>{{ question['vote_number'] }}</p>
+                    <p><a href="/question/{{ question['id'] }}/vote_down"><img src="/static/down.png"></a></p>
+                </td>
+                <td style="white-space: pre-wrap;">{{ question['message'] }}</td>
+                <td>{{ question['submission_time'] }}</td>
+                {% if question['image'] != 'no_image' %}
+                    <td>
+                        <a href="/show_image/{{ question['image'] }}/{{ question['id'] }}"><img src="/static/uploads/{{ question['image'] }}" width="100" hight="100"></a>
+                    </td>
+                {% endif %}
+            </tr>
+        </table>
+            {% if answers %}
+        <h1>Answers:</h1>
+        <table id="customers">
+            <tr>
+                <th>Votes</th>
+                <th>Answer</th>
+                <th>Submission Time</th>
+                <th>Answer Image</th>
+                <th> </th>
+            </tr>
+            {% for answer in answers %}
+            <tr>
+                <td>
+                    <p><a href="/answer/{{ answer['id'] }}/vote_up"><img src="/static/up.png"></a></p>
+                    <p>{{ answer['vote_number'] }}</p>
+                    <p><a href="/answer/{{ answer['id'] }}/vote_down"><img src="/static/down.png"></a></p>
+                </td>
+                <td style="white-space: pre-wrap;">{{ answer['message'] }}</td>
+                <td>{{ answer['submission_time'] }}</td>
+                {% if answer['image'] == 'no_image' %}
+                <td>
+                    No image uploaded
+                </td>
+                {% else %}
+                <td>
+                    <a href="/show_image/{{ answer['image'] }}/{{ question['id'] }}"><img src="/static/uploads/{{ answer['image'] }}" width="100" hight="100"></a>
+                </td>
+                {% endif %}
+                <td>
+                    <p><a href="/answer/{{ answer['id'] }}/delete"><img src="/static/delete.png"></a></p>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+            {% endif %}
+            </br>
+        <p>
+            <a href="/question/{{ question['id'] }}/new-answer"><button class="btn btn-primary">Add a new answer</button></a>
+            <a href="/question/{{ question['id'] }}/edit"><button class="btn btn-primary">Edit question</button></a>
+        </p>
+        <p>
+            <a href="/list"><button class="btn btn-primary">Back</button></a>
+            <a href="/question/{{ question['id'] }}/delete"><button class="btn btn-primary">Delete question</button></a>
+        </p>
+        </div>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+></scrip
+    </body>
+</html>

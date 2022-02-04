@@ -1,0 +1,13 @@
+id,submission_time,view_number,vote_number,title,message,image
+1,1643792210.5827725,75,6,How make perfect pizza?,How to make a good pizza to look like the one in the picture?,pizza.jpg
+2,1643967569.3847096,19,14,How sort list in python?,"I have this list
+
+[1,-5,10,6,3,-4,-9]
+But now I want the list to be sorted like this:
+
+[10,-9,6,-5,-4,3,1]
+As you can see I want to order from high to low no matter what sign each number has, but keeping the sign, is it clear?",no_image
+3,1643894224.697804,4,23,How do I delete a file or folder in Python?,How do I delete a file or folder in Python?,no_image
+4,1643894324.1875403,14,0,How to copy files?,"How do I copy a file in Python?
+
+I couldn't find anything under os module.",no_image
