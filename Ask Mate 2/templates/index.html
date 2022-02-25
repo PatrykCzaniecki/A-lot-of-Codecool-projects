@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of all questions</title>
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+    />
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container" align="center">
+    <a href="/"><img id="logo" src="/static/logo3.png"></a>
+    <div class="form-group">
+        <h1>List of all questions:</h1>
+
+        <table id="customers">
+            <thead>
+            <form method="POST">
+                <tr>
+                    {% for header in headers %}
+                        <th>
+                            {% if header =="submission_time" %}
+                                Submission time
+                            {% elif header =="view_number" %}
+                                Number of views
+                            {% elif header =="vote_number" %}
+                                Number of votes
+                            {% else %}
+                                {{ header }}
+                            {% endif %}
+                        </th>
+                    {% endfor %}
+                </tr>
+            </form>
+            </thead>
+            <tbody>
+            {% for dict in data %}
+                <tr>
+                    {% for header in headers %}
+                        <td>
+                            {% if header == 'title' %}
+                                <a href="/question/{{ dict["id"] }}">{{ dict["title"] }}</a>
+                            {% else %}
+                                {{ dict[header] }}
+                            {% endif %}
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <br>
+
+        <br>
+        <br>
+
+        <button class="btn btn-primary">
+            <a id="add_question" href="/list">
+                All questions
+            </a>
+        </button>
+        <br>
+        <br>
+        <br>
+        <div id="options">
+            <form action="/">
+                <label for="search-phrase">Search in questions and answers:</label>
+                <input type="text" name="search-phrase">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+    ></script>
+</body>
+</html>
