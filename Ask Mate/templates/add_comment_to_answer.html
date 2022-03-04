@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+    />
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/style.css">
+    <title>New Comment</title>
+</head>
+<body>
+<header>
+    <nav>
+        {% if alert %}
+        <ul class="nav-links">
+            <li><a href="/registration">Registration</a></li>
+            <li><a href="/login">Login</a></li>
+        </ul>
+        {% else %}
+        <ul class="nav-links">
+            {% if user_id %}
+                <li><a href="/user/{{ user_id }}">Profile</a></li>
+            {% endif %}
+                <li><a href="/logout">Logout</a></li>
+            {% if session['username'] %}
+                <li style="color: white">You are logged in as {{ session['username'] }}! Now, you can share your knowledge with other users!</li>
+            {% else %}
+                <li style="color: white">You are logged in! Now, you can share your knowledge with other users!</li>
+            {% endif %}
+        </ul>
+        {% endif %}
+    </nav>
+    <a class="cta" href="/about">About Ask Mate</a>
+</header>
+<div align="center" class="container">
+    <div align="center">
+        <a href="/"><img id="logo" src="/static/logo3.png"></a>
+    </div>
+    <div class="form-group">
+        <h4>Add new comment to answer</br> {{ title }}</h4>
+        <form action="/answer/{{ answer_id }}/new-comment" method="post" enctype="multipart/form-data">
+            <label for="post_new_comment_to_question"><h5>Your comment:</h5></label></br>
+            <textarea class="form-control" id="post_new_comment_to_question" name="new_comment" rows="3"></textarea><br>
+    </div>
+    <button type="submit" class="btn btn-primary">Add your comment</button>
+    </form>
+    <br><br>
+    <a href="/question/{{ question_id }}"><button class="btn btn-primary">Back</button></a>
+    <br><br>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>
