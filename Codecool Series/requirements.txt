@@ -1,0 +1,14 @@
+certifi==2021.10.8
+chardet==3.0.4
+charset-normalizer==2.0.12
+click==8.0.4
+Flask==2.0.3
+idna==2.7
+itsdangerous==2.1.1
+Jinja2==3.0.3
+MarkupSafe==2.1.0
+psycopg2-binary==2.9.3
+python-dotenv==0.13.0
+requests==2.19.1
+urllib3==1.23
+Werkzeug==2.0.3
