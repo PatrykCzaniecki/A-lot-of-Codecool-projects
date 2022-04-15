@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>{{ show_info[0].title }}</title>
+
+    <!-- Import Montserrat font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- Normalize.css fixes lot of differences between browsers default styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
+
+    <!-- project wide styling -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/site.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/header.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/background.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/button.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/card.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/table.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/form.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/grid.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/utils.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/pagination.css') }}">
+
+    <!-- page specific styling -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/detailed-view.css') }}">
+</head>
+<body>
+<div id="body-wrapper">
+    <header class="clearfix">
+        <img id="header-logo" src="{{ url_for('static', filename='assets/codecool-logo.png') }}" alt="Codecool Logo">
+        <span id="header-title" class="title">Codecool Series DB</span>
+        <div id="header-auth">
+            <button type="button"><a href="/">Welcome Page</a></button>
+            <button type="button"><a href="/shows/most_rated">Shows</a></button>
+            <button type="button" id="bt-register">Register</button>
+            <button type="button" id="bt-login">Login</button>
+        </div>
+    </header>
+    <div class="card detailed-view">
+        <p>Details:</p>
+        <div class="row">
+            {% if show_info[0].trailer != "no_url" %}
+                <div id="{{ video_id }}" class="trailer">
+                    <div id="player">
+                        <script>
+                            // script from https://developers.google.com/youtube/iframe_api_reference
+
+                            // 2. This code loads the IFrame Player API code asynchronously.
+                            var tag = document.createElement('script');
+                            var videoId = document.querySelector('.trailer').id
+
+                            tag.src = "https://www.youtube.com/iframe_api";
+                            var firstScriptTag = document.getElementsByTagName('script')[0];
+                            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                            // 3. This function creates an <iframe> (and YouTube player)
+                            //    after the API code downloads.
+                            var player;
+
+                            function onYouTubeIframeAPIReady() {
+                                player = new YT.Player('player', {
+                                    height: '270',
+                                    width: '480',
+                                    videoId: videoId,
+                                    events: {
+                                        'onReady': onPlayerReady,
+                                        'onStateChange': onPlayerStateChange
+                                    }
+                                });
+                            }
+
+                            // 4. The API will call this function when the video player is ready.
+                            function onPlayerReady(event) {
+                                event.target.playVideo();
+                            }
+
+                            // 5. The API calls this function when the player's state changes.
+                            //    The function indicates that when playing a video (state=1),
+                            //    the player should play for six seconds and then stop.
+                            var done = false;
+
+                            function onPlayerStateChange(event) {
+                                if (event.data == YT.PlayerState.PLAYING && !done) {
+                                    setTimeout(stopVideo, 6000);
+                                    done = true;
+                                }
+                            }
+
+                            function stopVideo() {
+                                player.stopVideo();
+                            }
+                        </script>
+                    </div>
+                </div>
+            {% endif %}
+            <div class="col col-twothird">
+                <h2>{{ show_info[0].title }}</h2>
+                <p class="small grayed">{{ runtime }}
+                    <span class="separator">|</span>
+                     {{ show_info[0].genres }}
+                    <span class="separator">|</span>
+                     {{ show_info[0].year }}
+                    <span class="separator">|</span>
+                     {{ show_info[0].rating }} ☆ </p>
+                <p>{{ show_info[0].overview }}</p>
+            </div>
+        </div>
+        <div>
+            <p><b>Director:</b>&nbsp;<a href="#">Tim Miller</a></p>
+            <p><b>Writers:</b>&nbsp;<a href="#">Rhett Reese</a>, <a href="#">Paul Wernick</a></p>
+            <p><b>Stars:</b>&nbsp;
+                {% for actor in range(actorlist) %}
+                    {% if actor != actorlist - 1 %}
+                        <a href="#">{{ show_info[actor].actors }},</a>
+                    {% else %}
+                        <a href="#">{{ show_info[actor].actors }}</a>
+                    {% endif %}
+                {% endfor %}
+        </div>
+    </div>
+    <h1 class="title text-center">Seasons</h1>
+    <div class="card">
+        <table style="text-align: center">
+            <th></th>
+            <th>Title</th>
+            <th>Overview</th>
+            {% for season in season_info %}
+                <tr>
+                    <td>{{ season.season_number + 1 }}</td>
+                    <td>{{ season.title }}</td>
+                    <td>{{ season.overview }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <footer>
+        Copyright, bla-bla
+    </footer>
+</div>
+<div class="background">
+    <div class="dark-blue-layer"></div>
+    <div class="light-blue-layer"></div>
+</div>
+</body>
+</html>
