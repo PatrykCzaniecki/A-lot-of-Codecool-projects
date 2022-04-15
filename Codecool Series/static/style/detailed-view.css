@@ -1,0 +1,7 @@
+.detailed-view .trailer {
+    max-width: 480px;
+}
+
+.detailed-view .row {
+    display: flex;
+}

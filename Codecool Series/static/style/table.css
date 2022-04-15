@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    margin-top: 10px;
+
+    border-spacing: 0;
+
+    border: 1px solid #278bc4;
+    border-radius: 3px;
+}
+
+table th {
+    color: #fff;
+    background: #278bc4;
+}
+
+table th a {
+    color: #fff;
+}
+
+table th a:hover {
+    color: #fff;
+}
+
+table td {
+    font-size: 13px;
+}
+
+table th,
+table td {
+    margin: 0;
+    padding: 6px;
+}
+
+table tr:nth-child(even) {
+    background: #edf3f7;
+}
+
+table th.action-column {
+    background: rgb(203, 75, 70);
+}
