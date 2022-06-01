@@ -1,0 +1,15 @@
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\bin\Debug\net6.0\Codecool.WasteRecycling.exe
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\bin\Debug\net6.0\Codecool.WasteRecycling.deps.json
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\bin\Debug\net6.0\Codecool.WasteRecycling.runtimeconfig.json
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\bin\Debug\net6.0\Codecool.WasteRecycling.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\bin\Debug\net6.0\Codecool.WasteRecycling.pdb
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\Codecool.WasteRecycling.csproj.AssemblyReference.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\Codecool.WasteRecycling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\Codecool.WasteRecycling.AssemblyInfoInputs.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\Codecool.WasteRecycling.AssemblyInfo.cs
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\Codecool.WasteRecycling.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\Codecool.WasteRecycling.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\refint\Codecool.WasteRecycling.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\Codecool.WasteRecycling.pdb
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\Codecool.WasteRecycling.genruntimeconfig.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\waste-recycling-csharp-PatrykCzaniecki\src\Codecool.WasteRecycling\obj\Debug\net6.0\ref\Codecool.WasteRecycling.dll
