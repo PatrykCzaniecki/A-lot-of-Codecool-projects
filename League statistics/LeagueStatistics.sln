@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{851C0A16-DCD2-42E7-B2E9-0D4834E58644}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0274437F-95AE-454D-A5EE-F4F8A0A308EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89DA300D-F6ED-4DB2-A42D-C05A8DBACD21}"
+	ProjectSection(SolutionItems) = preProject
+		data\CityNames.txt = data\CityNames.txt
+		data\PlayerNames.txt = data\PlayerNames.txt
+		data\TeamNames.txt = data\TeamNames.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codecool.LeagueStatistics", "src\Codecool.LeagueStatistics\Codecool.LeagueStatistics.csproj", "{041FA047-23A6-48F3-8544-4AE46A1F826C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codecool.LeagueStatistics.UnitTests", "tests\Codecool.LeagueStatistics.UnitTests\Codecool.LeagueStatistics.UnitTests.csproj", "{2D46804F-2BAD-4DEC-B5A9-C3890AB894AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041FA047-23A6-48F3-8544-4AE46A1F826C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041FA047-23A6-48F3-8544-4AE46A1F826C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041FA047-23A6-48F3-8544-4AE46A1F826C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041FA047-23A6-48F3-8544-4AE46A1F826C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D46804F-2BAD-4DEC-B5A9-C3890AB894AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D46804F-2BAD-4DEC-B5A9-C3890AB894AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D46804F-2BAD-4DEC-B5A9-C3890AB894AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D46804F-2BAD-4DEC-B5A9-C3890AB894AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{041FA047-23A6-48F3-8544-4AE46A1F826C} = {851C0A16-DCD2-42E7-B2E9-0D4834E58644}
+		{2D46804F-2BAD-4DEC-B5A9-C3890AB894AC} = {0274437F-95AE-454D-A5EE-F4F8A0A308EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {801700fe-8b01-4870-81c7-1a177529a0e5}
+	EndGlobalSection
+EndGlobal

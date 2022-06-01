@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Codecool.LeagueStatistics</name>
+    </assembly>
+    <members>
+        <member name="T:Codecool.LeagueStatistics.Controllers.Season">
+            <summary>
+                Provides all necessary methods for season simulation
+            </summary>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Controllers.Season.Run">
+            <summary>
+                Fills league with new teams and simulates all games in season.
+            After all games played calls table to be displayed.
+            </summary>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Controllers.Season.PlayAllGames">
+            <summary>
+                Playing one round. Everyone with everyone one time. 
+            </summary>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Controllers.Season.PlayMatch(Codecool.LeagueStatistics.Model.Team,Codecool.LeagueStatistics.Model.Team)">
+            <summary>
+                Plays single game between two teams and displays result after.
+            </summary>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Controllers.Season.ScoredGoals(Codecool.LeagueStatistics.Model.Team)">
+            <summary>
+                Checks for each player of given team chanse to score based on skillrate.
+                Adds scored golas to player's and team's statistics.
+            </summary>
+            <param name="team">team</param>
+            <returns>All goals scored by the team in current game</returns>
+        </member>
+        <member name="T:Codecool.LeagueStatistics.Factory.LeagueFactory">
+            <summary>
+            Provides full set of teams with players
+            </summary>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Factory.LeagueFactory.CreateLeague(System.Int32)">
+            <summary>
+                For each division, creates given amount of teams. Each team gets a newly created collection of players.
+                The amount of players should be taken from Utils.TeamSize
+            </summary>
+            <param name="teamsInDivision">Indicates number of teams are in division</param>
+            <returns>Full set of teams with players</returns>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Factory.LeagueFactory.GetPlayers(System.Int32)">
+            <summary>
+                Returns a collection with a given amount of newly created players
+            </summary>
+            <param name="amount"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Codecool.LeagueStatistics.Facotry.NamesGenerator">
+            <summary>
+                Provides random names for Players and Teams
+            </summary>
+        </member>
+        <member name="T:Codecool.LeagueStatistics.Model.LeagueStatistics">
+            <summary>
+                Provides all necessary statistics of played season.
+            </summary>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Model.LeagueStatistics.GetAllTeamsSorted(System.Collections.Generic.IEnumerable{Codecool.LeagueStatistics.Model.Team})">
+            <summary>
+                Gets all teams with highest points order, if points are equal next deciding parameter is sum of goals of the team.
+            </summary>
+            <param name="teams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Model.LeagueStatistics.GetAllPlayers(System.Collections.Generic.IEnumerable{Codecool.LeagueStatistics.Model.Team})">
+            <summary>
+                Gets all players from each team in one collection.
+            </summary>
+            <param name="teams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Model.LeagueStatistics.GetTeamWithTheLongestName(System.Collections.Generic.IEnumerable{Codecool.LeagueStatistics.Model.Team})">
+            <summary>
+                Gets team with the longest name
+            </summary>
+            <param name="teams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Model.LeagueStatistics.GetTopTeamsWithLeastLoses(System.Collections.Generic.IEnumerable{Codecool.LeagueStatistics.Model.Team},System.Int32)">
+            <summary>
+                Gets top teams with least number of lost matches.
+                If the amount of lost matches is equal, next deciding parameter is team's current points value.
+            </summary>
+            <param name="teams"></param>
+            <param name="teamsNumber">The number of Teams to select.</param>
+            <returns>Collection of selected Teams.</returns>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Model.LeagueStatistics.GetTopPlayersFromEachTeam(System.Collections.Generic.IEnumerable{Codecool.LeagueStatistics.Model.Team})">
+            <summary>
+                Gets a player with the biggest goals number from each team.
+            </summary>
+            <param name="teams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Model.LeagueStatistics.GetStrongestDivision(System.Collections.Generic.IEnumerable{Codecool.LeagueStatistics.Model.Team})">
+            <summary>
+                Returns the division with greatest amount of points.
+                If there is more than one division with the same amount current points, then check the amounts of wins.
+            </summary>
+            <param name="teams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Model.LeagueStatistics.GetTeamsWithPlayersWithoutGoals(System.Collections.Generic.IEnumerable{Codecool.LeagueStatistics.Model.Team})">
+            <summary>
+                Gests all teams, where there are players with no scored goals.
+            </summary>
+            <param name="teams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Model.LeagueStatistics.GetPlayersWithAtLeastXGoals(System.Collections.Generic.IEnumerable{Codecool.LeagueStatistics.Model.Team},System.Int32)">
+            <summary>
+            Gets players with given or higher number of goals scored.
+            </summary>
+            <param name="teams"></param>
+            <param name="goals">The minimal number of golas scored.</param>
+            <returns>Collection of Players with given or higher number of goals scored.</returns>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Model.LeagueStatistics.GetMostTalentedPlayerInDivision(System.Collections.Generic.IEnumerable{Codecool.LeagueStatistics.Model.Team},Codecool.LeagueStatistics.Division)">
+            <summary>
+                Gets the player with the highest skill rate for given Division.
+            </summary>
+            <param name="teams"></param>
+            <param name="division"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Codecool.LeagueStatistics.Model.Player">
+            <summary>
+                Represents player
+            </summary>
+        </member>
+        <member name="P:Codecool.LeagueStatistics.Model.Player.Name">
+            <summary>
+                Player's name
+            </summary>
+        </member>
+        <member name="P:Codecool.LeagueStatistics.Model.Player.SkillRate">
+            <summary>
+                SkillRate is a percentage chance to score a goal
+            </summary>
+        </member>
+        <member name="P:Codecool.LeagueStatistics.Model.Player.Goals">
+            <summary>
+                Amount of scored goals
+            </summary>
+        </member>
+        <member name="T:Codecool.LeagueStatistics.Model.Team">
+            <summary>
+                Represents a team.
+            </summary>
+        </member>
+        <member name="P:Codecool.LeagueStatistics.Model.Team.Division">
+            <summary>
+                Division is a geografic representation of team.
+            </summary>
+        </member>
+        <member name="P:Codecool.LeagueStatistics.Model.Team.CurrentPoints">
+            <summary>
+            CurrentPoints is a sum of wins and draws points. For each win 3 points, for draw 1 point.
+            </summary>
+        </member>
+        <member name="T:Codecool.LeagueStatistics.Utils">
+            <summary>
+            Provides repetetive methods or data.
+            </summary>
+        </member>
+        <member name="M:Codecool.LeagueStatistics.Utils.GetRandomValue``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+                Gets a random item from any IEnumerable
+            </summary>
+        </member>
+        <member name="T:Codecool.LeagueStatistics.View.Display">
+            <summary>
+            Provides console view for league table, results and all League statistics
+            </summary>
+        </member>
+    </members>
+</doc>
