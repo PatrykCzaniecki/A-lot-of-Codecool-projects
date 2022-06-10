@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game.csproj", "{487bbd87-111c-12da-7277-1cca176a9e22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{61afee25-62f0-61ba-68fa-93c1ec3b9492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextMeshPro", "TextMeshPro.csproj", "{77b0c10c-32f6-96e1-0922-5ae6a7a6a90d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{bda01299-c532-0308-f35f-f82dbd2d2fd7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{487bbd87-111c-12da-7277-1cca176a9e22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487bbd87-111c-12da-7277-1cca176a9e22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61afee25-62f0-61ba-68fa-93c1ec3b9492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61afee25-62f0-61ba-68fa-93c1ec3b9492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77b0c10c-32f6-96e1-0922-5ae6a7a6a90d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77b0c10c-32f6-96e1-0922-5ae6a7a6a90d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bda01299-c532-0308-f35f-f82dbd2d2fd7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bda01299-c532-0308-f35f-f82dbd2d2fd7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
