@@ -1,0 +1,28 @@
+.form-element {
+    display: block;
+}
+
+.form-element-label {
+    font-weight: bold;
+
+    display: inline-block;
+
+    min-width: 150px;
+    padding-right: 5px;
+
+    text-align: right;
+}
+
+form input,
+form select {
+    padding: 4px 6px;
+
+    cursor: pointer;
+
+    border: 1px solid #4c97ca;
+    -webkit-border-radius: 0;
+            border-radius: 2px;
+    background: #fff;
+
+    -webkit-appearance: none;
+}

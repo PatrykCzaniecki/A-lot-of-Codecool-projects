@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
+  }
+
+  .nav-links a,
+  .cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 0px 20px;
+  }
+
+  .nav-links li a {
+    transition: color 0.3s ease 0s;
+  }
+
+  .nav-links li a:hover {
+    color: #0088a9;
+  }
+
+  .cta {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+
+.login-nav {
+    display: block;
+
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #babfc4;
+    color: white;
+    text-transform: uppercase;
+}
+
+#customers td {
+    text-align: center;
+}
+
+option, select, label {
+
+}
+
+a#add_question {
+    color: white;
+    font-weight: bold;
+}
+
+a#add_question:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+table {
+    text-align: center;
+    width: 70%;
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+#logo {
+    align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tags {
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+    background: gray;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    margin: 3px;
+
+}
+
+
+.tags-link {
+    color: white;
+}
+
+.tags:hover {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.tags-container {
+    display: flex;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}

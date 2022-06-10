@@ -1,0 +1,47 @@
+/* Dead Simple Grid (c) 2015 Vladimir Agafonkin */
+
+
+/* https://github.com/mourner/dead-simple-grid/blob/gh-pages/css/grid.css */
+
+.row .row {
+    margin: 0 -1.5em;
+}
+
+.col {
+    padding: 0 1.5em;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+
+    content: "";
+}
+
+@media only screen {
+    .col {
+        float: left;
+
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+
+/* Extended col width options */
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.32%;
+}
+
+.col-twothird {
+    width: 66.65%;
+}
+
+.col-quarter {
+    width: 25%;
+}

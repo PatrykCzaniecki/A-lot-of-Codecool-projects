@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Codecool.LifeOfAnts</name>
+    </assembly>
+    <members>
+        <member name="M:Codecool.LifeOfAnts.Img.View.PrintFile(System.String)">
+            <summary>
+            Static method for image printing
+            </summary>
+            <param name="fileName"> String with the filename</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,16 @@
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\Codecool.LifeOfAnts.csproj.AssemblyReference.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\Codecool.LifeOfAnts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\Codecool.LifeOfAnts.AssemblyInfoInputs.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\Codecool.LifeOfAnts.AssemblyInfo.cs
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\Codecool.LifeOfAnts.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\bin\Debug\net6.0\Codecool.LifeOfAnts.exe
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\bin\Debug\net6.0\Codecool.LifeOfAnts.deps.json
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\bin\Debug\net6.0\Codecool.LifeOfAnts.runtimeconfig.json
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\bin\Debug\net6.0\Codecool.LifeOfAnts.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\bin\Debug\net6.0\Codecool.LifeOfAnts.pdb
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\bin\Debug\net6.0\Codecool.LifeOfAnts.xml
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\Codecool.LifeOfAnts.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\refint\Codecool.LifeOfAnts.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\Codecool.LifeOfAnts.pdb
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\Codecool.LifeOfAnts.genruntimeconfig.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 3\life-of-the-ants-csharp-PatrykCzaniecki\src\Codecool.LifeOfAnts\obj\Debug\net6.0\ref\Codecool.LifeOfAnts.dll

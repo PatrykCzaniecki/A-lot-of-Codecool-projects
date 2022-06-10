@@ -1,0 +1,22 @@
+.title {
+    color: #fff;
+    text-shadow: 0 0 4px rgba(255, 255, 255, .3), 0 0 6px rgba(255, 255, 255, .2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.small {
+    font-size: .75em;
+}
+
+.grayed {
+    color: #777;
+}
+
+.separator {
+    font-weight: 100;
+
+    padding: 0 5px;
+}

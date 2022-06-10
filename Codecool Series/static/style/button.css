@@ -1,0 +1,55 @@
+button,
+input[type="submit"],
+input[type="button"] {
+    font-family: "Montserrat", sans-serif;
+
+    padding: 4px 12px;
+
+    color: #278bc4;
+    border: #278bc4 solid 2px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0);
+}
+
+button:hover,
+button:active,
+input[type="submit"]:hover,
+input[type="submit"]:active,
+input[type="button"]:hover,
+input[type="button"]:active {
+    cursor: pointer;
+
+    color: rgb(203, 75, 70);
+    border: rgb(203, 75, 70) solid 2px;
+}
+
+.action-column button,
+.action-column input[type="submit"],
+.action-column input[type="button"] {
+    padding: 2px;
+
+    color: rgba(0, 0, 0, .87);
+    border: 0;
+}
+
+header button,
+header input[type="submit"],
+header input[type="button"] {
+    color: #fff;
+    border: #fff solid 2px;
+    background: rgba(255, 255, 255, .1);
+    text-shadow: 0 0 4px rgba(255, 255, 255, .2), 0 0 6px rgba(255, 255, 255, .1);
+}
+
+header button:hover,
+header button:active,
+header input[type="submit"]:hover,
+header input[type="submit"]:active,
+header input[type="button"]:hover,
+header input[type="button"]:active {
+    cursor: pointer;
+
+    border: #fff solid 2px;
+    background: rgba(150, 150, 150, .25);
+    text-shadow: 0 0 4px rgba(255, 255, 255, .5), 0 0 6px rgba(255, 255, 255, .3);
+}

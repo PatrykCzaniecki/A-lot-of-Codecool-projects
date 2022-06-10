@@ -1,0 +1,16 @@
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\bin\Debug\net6.0\Codecool.LeagueStatistics.exe
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\bin\Debug\net6.0\Codecool.LeagueStatistics.deps.json
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\bin\Debug\net6.0\Codecool.LeagueStatistics.runtimeconfig.json
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\bin\Debug\net6.0\Codecool.LeagueStatistics.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\bin\Debug\net6.0\Codecool.LeagueStatistics.pdb
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\bin\Debug\net6.0\Codecool.LinqLeague.xml
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\Codecool.LeagueStatistics.csproj.AssemblyReference.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\Codecool.LeagueStatistics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\Codecool.LeagueStatistics.AssemblyInfoInputs.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\Codecool.LeagueStatistics.AssemblyInfo.cs
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\Codecool.LeagueStatistics.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\Codecool.LeagueStatistics.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\refint\Codecool.LeagueStatistics.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\Codecool.LeagueStatistics.pdb
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\Codecool.LeagueStatistics.genruntimeconfig.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\league-statistics-csharp-PatrykCzaniecki\src\Codecool.LeagueStatistics\obj\Debug\net6.0\ref\Codecool.LeagueStatistics.dll

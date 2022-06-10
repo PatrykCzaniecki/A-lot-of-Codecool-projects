@@ -1,0 +1,27 @@
+/* Pagination links */
+.pagination{
+   width: 100%;
+   margin-top: 5px;
+   text-align: center;
+ }
+ .pagination a {
+   color: black;
+   padding: 10px;
+   line-height: 3;
+   text-decoration: none;
+   transition: background-color .3s;
+ }
+
+ /* Style the active/current link */
+ .pagination a.active {
+   background-color: dodgerblue;
+   color: white;
+ }
+
+ /* Add a grey background color on mouse-over */
+ .pagination a:hover:not(.active) {background-color: #ddd;}
+
+ .pagination a.inactive {
+     color: red; /* if it is invisible it is working */
+     pointer-events: none;
+ }

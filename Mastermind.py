@@ -1,4 +1,5 @@
-import random 
+import random
+from turtle import color 
 
 colors = ["R", "G", "B", "Y", "O", "P"]
 secret = []
@@ -36,7 +37,6 @@ def game(secret):
     guess_history = []  
     hits_history = []
     close_history = []
-    auxiliary_list = []
     for round in range(12):
         player_input = input("\nPlease enter the four colors: ").upper()
         check_player_input(player_input, secret, round, colors) 
@@ -49,16 +49,11 @@ def game(secret):
         try:    
             if player_input != "BOARD":
                 guess_history.append(" ".join(player_input)) 
-                for i in range(len(player_input)):
-                    if player_input[i] == secret[i]:
-                        hits += 1
-                        auxiliary_list.append(player_input[i])
-                        continue
-                    if player_input[i] not in secret:
-                        close += 1 
+                hits = sum(player_input[ i ] == secret[ i ] for i in range(len(secret)))
+                close = sum(min(secret.count(colors), player_input.count(colors)) for colors in set(secret))
                 print(f"\nCorrect color and correct place: {hits}")
                 hits_history.append(hits)
-                print(f"Wrong color: {close}")
+                print(f"Correct color but wrong place: {close}")
                 close_history.append(close)
                 if round >= 1 and round <= 11 and hits < 4:
                     print(f"Round number: {round}")
@@ -66,7 +61,7 @@ def game(secret):
         except IndexError:
             print("IndexError")
         check_win(hits, round, secret)
-    return round, hits  
+    return round, hits, close  
 
 
 def check_player_input(player_input, secret, round, colors):
@@ -80,11 +75,11 @@ def check_player_input(player_input, secret, round, colors):
     return player_input
 
 
-def show_board(guess_history, hits_history, wrong_history):
+def show_board(guess_history, hits_history, close_history):
     print("\n_________BOARD________")
-    print("  Move  | Hits | Wrong ")
-    for (move, hits, wrong) in zip(guess_history, hits_history, wrong_history):
-        print(f"{move} |  {hits}   |   {wrong}") 
+    print("  Move  | Hits | Close ")
+    for (move, hits, close) in zip(guess_history, hits_history, close_history):
+        print(f"{move} |  {hits}   |   {close}") 
     print()
 
 

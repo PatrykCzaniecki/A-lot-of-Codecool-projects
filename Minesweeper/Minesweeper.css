@@ -1,0 +1,85 @@
+.container {
+  margin: auto;
+  align-content: center;
+}
+
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+  margin: auto;
+  border: 12px solid orange;
+}
+
+div {
+  font-size: 35px;
+  text-align: center;
+  color: grey;
+  font-family: 'courier', monospace;
+
+}
+.valid {
+  height: 40px;
+  width: 40px;
+  border: 5px solid blueviolet;
+  box-sizing: border-box;
+}
+
+.checked {
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+  border: 2px solid greenyellow;
+  box-sizing: border-box;
+}
+
+.bomb {
+  height: 40px;
+  width: 40px;
+  border: 5px solid blueviolet;
+  box-sizing: border-box;
+}
+
+.one {
+  font-size: 35px;
+  font-family: 'courier', monospace;
+  text-align: center;
+  color: darkred;
+}
+
+.two {
+  font-size: 35px;
+  font-family: 'courier', monospace;
+  text-align: center;
+  color: cadetblue;
+}
+
+.three {
+  font-size: 35px;
+  font-family: 'courier', monospace;
+  text-align: center;
+  color: green;
+}
+
+.four {
+  font-size: 35px;
+  font-family: 'courier', monospace;
+  text-align: center;
+  color: deeppink;
+}
+
+.five {
+  font-size: 35px;
+  font-family: 'courier', monospace;
+  text-align: center;
+  color: darkred;
+}
+
+#result {
+  font-size: 65px;
+  font-family: 'italic', monospace;
+  text-align: center;
+  color: darkred;
+}
