@@ -1,0 +1,15 @@
+C:\Users\Patryk\source\repos\CarRace\bin\Debug\net6.0\CarRace.exe
+C:\Users\Patryk\source\repos\CarRace\bin\Debug\net6.0\CarRace.deps.json
+C:\Users\Patryk\source\repos\CarRace\bin\Debug\net6.0\CarRace.runtimeconfig.json
+C:\Users\Patryk\source\repos\CarRace\bin\Debug\net6.0\CarRace.dll
+C:\Users\Patryk\source\repos\CarRace\bin\Debug\net6.0\CarRace.pdb
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\CarRace.csproj.AssemblyReference.cache
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\CarRace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\CarRace.AssemblyInfoInputs.cache
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\CarRace.AssemblyInfo.cs
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\CarRace.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\CarRace.dll
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\refint\CarRace.dll
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\CarRace.pdb
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\CarRace.genruntimeconfig.cache
+C:\Users\Patryk\source\repos\CarRace\obj\Debug\net6.0\ref\CarRace.dll
