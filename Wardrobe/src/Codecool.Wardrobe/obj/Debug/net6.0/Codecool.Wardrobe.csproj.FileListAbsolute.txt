@@ -1,0 +1,16 @@
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\Codecool.Wardrobe.csproj.AssemblyReference.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\Codecool.Wardrobe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\Codecool.Wardrobe.AssemblyInfoInputs.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\Codecool.Wardrobe.AssemblyInfo.cs
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\Codecool.Wardrobe.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\bin\Debug\net6.0\Codecool.Wardrobe.exe
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\bin\Debug\net6.0\Codecool.Wardrobe.deps.json
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\bin\Debug\net6.0\Codecool.Wardrobe.runtimeconfig.json
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\bin\Debug\net6.0\Codecool.Wardrobe.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\bin\Debug\net6.0\Codecool.Wardrobe.pdb
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\bin\Debug\net6.0\Codecool.Wardrobe.xml
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\Codecool.Wardrobe.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\refint\Codecool.Wardrobe.dll
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\Codecool.Wardrobe.pdb
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\Codecool.Wardrobe.genruntimeconfig.cache
+C:\Users\Patryk\Codecool\OOP - C#\Week Pair 4\wardrobe-csharp-PatrykCzaniecki\src\Codecool.Wardrobe\obj\Debug\net6.0\ref\Codecool.Wardrobe.dll
