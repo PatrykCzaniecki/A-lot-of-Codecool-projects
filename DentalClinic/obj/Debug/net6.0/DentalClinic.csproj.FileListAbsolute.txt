@@ -1,0 +1,15 @@
+C:\Users\Patryk\source\repos\DentalClinic\bin\Debug\net6.0\DentalClinic.exe
+C:\Users\Patryk\source\repos\DentalClinic\bin\Debug\net6.0\DentalClinic.deps.json
+C:\Users\Patryk\source\repos\DentalClinic\bin\Debug\net6.0\DentalClinic.runtimeconfig.json
+C:\Users\Patryk\source\repos\DentalClinic\bin\Debug\net6.0\DentalClinic.dll
+C:\Users\Patryk\source\repos\DentalClinic\bin\Debug\net6.0\DentalClinic.pdb
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\DentalClinic.csproj.AssemblyReference.cache
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\DentalClinic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\DentalClinic.AssemblyInfoInputs.cache
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\DentalClinic.AssemblyInfo.cs
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\DentalClinic.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\DentalClinic.dll
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\refint\DentalClinic.dll
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\DentalClinic.pdb
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\DentalClinic.genruntimeconfig.cache
+C:\Users\Patryk\source\repos\DentalClinic\obj\Debug\net6.0\ref\DentalClinic.dll
