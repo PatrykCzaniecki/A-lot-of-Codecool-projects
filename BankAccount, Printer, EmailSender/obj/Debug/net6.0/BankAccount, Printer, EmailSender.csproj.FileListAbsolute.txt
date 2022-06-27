@@ -1,0 +1,15 @@
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\bin\Debug\net6.0\BankAccount, Printer, EmailSender.exe
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\bin\Debug\net6.0\BankAccount, Printer, EmailSender.deps.json
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\bin\Debug\net6.0\BankAccount, Printer, EmailSender.runtimeconfig.json
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\bin\Debug\net6.0\BankAccount, Printer, EmailSender.dll
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\bin\Debug\net6.0\BankAccount, Printer, EmailSender.pdb
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\BankAccount, Printer, EmailSender.csproj.AssemblyReference.cache
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\BankAccount, Printer, EmailSender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\BankAccount, Printer, EmailSender.AssemblyInfoInputs.cache
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\BankAccount, Printer, EmailSender.AssemblyInfo.cs
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\BankAccount, Printer, EmailSender.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\BankAccount, Printer, EmailSender.dll
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\refint\BankAccount, Printer, EmailSender.dll
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\BankAccount, Printer, EmailSender.pdb
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\BankAccount, Printer, EmailSender.genruntimeconfig.cache
+C:\Users\Patryk\source\repos\BankAccount, Printer, EmailSender\obj\Debug\net6.0\ref\BankAccount, Printer, EmailSender.dll

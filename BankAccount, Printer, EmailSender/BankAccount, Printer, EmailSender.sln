@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount, Printer, EmailSender", "BankAccount, Printer, EmailSender.csproj", "{BBE22B7E-9DFE-4779-85DC-17C7CA8433DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBE22B7E-9DFE-4779-85DC-17C7CA8433DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE22B7E-9DFE-4779-85DC-17C7CA8433DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE22B7E-9DFE-4779-85DC-17C7CA8433DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE22B7E-9DFE-4779-85DC-17C7CA8433DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7EF8664-5632-4524-9178-4D204767FAAD}
+	EndGlobalSection
+EndGlobal
