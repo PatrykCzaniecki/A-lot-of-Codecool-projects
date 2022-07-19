@@ -1,0 +1,69 @@
+﻿@model Codecool.CodecoolShop.Controllers.ModelOrderConfirmationContainer;
+
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+<h1>Order Summary</h1>
+<div>
+    @foreach (var element in Model.products)
+    {
+        <p>
+            <b>Product:</b> @element.Name
+        </p>
+        <img src="~/img/@(element.Name).jpg" style="height: 150px; width: 150px;">
+        <p>
+            <b>Quantity:</b> @element.Quantity
+        </p>
+        <p>
+            <b>Price:</b> @(element.Price * element.Quantity)
+        </p>
+        <br/>
+    }
+
+    <h4>Your shipping details</h4>
+    <p>
+        <b>Full Name:</b> @Model.order.Address.FullName
+    </p>
+    <p>
+        <b>Email:</b> @Model.order.Address.Email
+    </p>
+    <p>
+        <b>Phone:</b> @Model.order.Address.Phone
+    </p>
+    <p>
+        <b>Country:</b> @Model.order.Address.Country
+    </p>
+    <p>
+        <b>City:</b> @Model.order.Address.City
+    </p>
+    <p>
+        <b>Street:</b> @Model.order.Address.Street
+    </p>
+    <p>
+        <b>Zip Code:</b> @Model.order.Address.Zip
+    </p>
+
+    <br/>
+
+    <h4>Your payment informations</h4>
+    <p>
+        <b>Name on Card:</b> @Model.order.PaymentInfo.NameOnCard
+    </p>
+    <p>
+        <b>Card Number:</b> @Model.order.PaymentInfo.CardNumber
+    </p>
+    <p>
+        <b>Expiry Month:</b> @Model.order.PaymentInfo.ExpMonth
+    </p>
+    <p>
+        <b>Expiry Year:</b> @Model.order.PaymentInfo.ExpYear
+    </p>
+    <p>
+        <b>CVV:</b> @Model.order.PaymentInfo.CVV
+    </p>
+</div>
+<div>
+    <form asp-action="Send">
+        <button type="submit" class="btn btn-primary">Confirm your order</button>
+    </form>
+</div>
