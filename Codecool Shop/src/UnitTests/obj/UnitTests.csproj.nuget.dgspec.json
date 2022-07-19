@@ -1,0 +1,340 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\UnitTests\\UnitTests.csproj": {}
+  },
+  "projects": {
+    "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Codecool.CodecoolShop\\Codecool.CodecoolShop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Codecool.CodecoolShop\\Codecool.CodecoolShop.csproj",
+        "projectName": "Codecool.CodecoolShop",
+        "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Codecool.CodecoolShop\\Codecool.CodecoolShop.csproj",
+        "packagesPath": "C:\\Users\\Patryk\\.nuget\\packages\\",
+        "outputPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Codecool.CodecoolShop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Patryk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Data\\Data.csproj": {
+                "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Data\\Data.csproj"
+              },
+              "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.1.2, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Patryk\\.nuget\\packages\\",
+        "outputPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Patryk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Patryk\\.nuget\\packages\\",
+        "outputPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Patryk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\UnitTests\\UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\UnitTests\\UnitTests.csproj",
+        "projectName": "UnitTests",
+        "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\UnitTests\\UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Patryk\\.nuget\\packages\\",
+        "outputPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Patryk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Codecool.CodecoolShop\\Codecool.CodecoolShop.csproj": {
+                "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Codecool.CodecoolShop\\Codecool.CodecoolShop.csproj"
+              },
+              "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Data\\Data.csproj": {
+                "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Data\\Data.csproj"
+              },
+              "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Codecool\\OOP - C#\\Week Pair 6\\codecool-shop-2-csharp-kamil-kornek96\\src\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
