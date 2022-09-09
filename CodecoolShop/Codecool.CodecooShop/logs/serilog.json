@@ -1,0 +1,174 @@
+{
+  "Timestamp": "2022-07-06T14:06:03.9169505+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Starting web host..."
+}{
+  "Timestamp": "2022-07-06T14:08:15.8502925+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Starting web host..."
+} {
+  "Timestamp": "2022-07-06T14:08:20.0691733+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Product page loaded...",
+  "Properties": {
+    "SourceContext": "Codecool.CodecoolShop.Controllers.ProductController",
+    "ActionId": "1b76035d-f2aa-4065-ab0c-42b68f858fcf",
+    "ActionName": "Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)",
+    "RequestId": "8000005b-0001-ff00-b63f-84710c7967bb",
+    "RequestPath": "/"
+  }
+} {
+  "Timestamp": "2022-07-06T14:08:21.8041039+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Product page loaded...",
+  "Properties": {
+    "SourceContext": "Codecool.CodecoolShop.Controllers.ProductController",
+    "ActionId": "1b76035d-f2aa-4065-ab0c-42b68f858fcf",
+    "ActionName": "Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)",
+    "RequestId": "80000026-0000-fb00-b63f-84710c7967bb",
+    "RequestPath": "/"
+  }
+} {
+  "Timestamp": "2022-07-06T14:08:22.4691298+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Product page loaded...",
+  "Properties": {
+    "SourceContext": "Codecool.CodecoolShop.Controllers.ProductController",
+    "ActionId": "1b76035d-f2aa-4065-ab0c-42b68f858fcf",
+    "ActionName": "Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)",
+    "RequestId": "80000054-000a-fe00-b63f-84710c7967bb",
+    "RequestPath": "/"
+  }
+} {
+  "Timestamp": "2022-07-06T14:08:22.8321497+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Product page loaded...",
+  "Properties": {
+    "SourceContext": "Codecool.CodecoolShop.Controllers.ProductController",
+    "ActionId": "1b76035d-f2aa-4065-ab0c-42b68f858fcf",
+    "ActionName": "Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)",
+    "RequestId": "80000008-0003-fe00-b63f-84710c7967bb",
+    "RequestPath": "/"
+  }
+} {
+  "Timestamp": "2022-07-06T14:10:59.6996146+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Starting web host..."
+} {
+  "Timestamp": "2022-07-06T14:11:03.2759046+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Product page loaded...",
+  "Properties": {
+    "SourceContext": "Codecool.CodecoolShop.Controllers.ProductController",
+    "ActionId": "9c3ab847-7bb8-4bd7-81dd-77170c800a80",
+    "ActionName": "Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)",
+    "RequestId": "80000068-0008-fe00-b63f-84710c7967bb",
+    "RequestPath": "/"
+  }
+} {
+  "Timestamp": "2022-07-06T14:11:06.5480209+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Product page loaded...",
+  "Properties": {
+    "SourceContext": "Codecool.CodecoolShop.Controllers.ProductController",
+    "ActionId": "9c3ab847-7bb8-4bd7-81dd-77170c800a80",
+    "ActionName": "Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)",
+    "RequestId": "80000084-000a-fc00-b63f-84710c7967bb",
+    "RequestPath": "/"
+  }
+} {
+  "Timestamp": "2022-07-06T14:11:08.1177150+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Product page loaded...",
+  "Properties": {
+    "SourceContext": "Codecool.CodecoolShop.Controllers.ProductController",
+    "ActionId": "9c3ab847-7bb8-4bd7-81dd-77170c800a80",
+    "ActionName": "Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)",
+    "RequestId": "80000039-0003-ff00-b63f-84710c7967bb",
+    "RequestPath": "/"
+  }
+} {
+  "Timestamp": "2022-07-06T14:11:43.7545301+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Product page loaded...",
+  "Properties": {
+    "SourceContext": "Codecool.CodecoolShop.Controllers.ProductController",
+    "ActionId": "9c3ab847-7bb8-4bd7-81dd-77170c800a80",
+    "ActionName": "Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)",
+    "RequestId": "80000070-0004-ff00-b63f-84710c7967bb",
+    "RequestPath": "/"
+  }
+} {
+  "Timestamp": "2022-07-06T14:12:23.7543412+02:00",
+  "Level": "Information",
+  "MessageTemplate": "Product page loaded...",
+  "Properties": {
+    "SourceContext": "Codecool.CodecoolShop.Controllers.ProductController",
+    "ActionId": "9c3ab847-7bb8-4bd7-81dd-77170c800a80",
+    "ActionName": "Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)",
+    "RequestId": "8000001e-0002-fd00-b63f-84710c7967bb",
+    "RequestPath": "/"
+  }
+}
+{"Timestamp":"2022-07-06T14:25:25.8399399+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-06T14:25:29.9105720+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"d0b27334-a179-45cc-9178-80bcd21f3b8d","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000003d-0003-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-06T14:25:39.6659065+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"d0b27334-a179-45cc-9178-80bcd21f3b8d","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000024-0002-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-06T14:25:44.7367691+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"d0b27334-a179-45cc-9178-80bcd21f3b8d","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000048-0008-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-06T14:25:55.3594960+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"d0b27334-a179-45cc-9178-80bcd21f3b8d","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000002a-0002-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-06T14:25:57.6787313+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"d0b27334-a179-45cc-9178-80bcd21f3b8d","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000002e-0002-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T09:22:44.9357134+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T09:22:54.3314948+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"a21ca05d-17b2-4361-a7ee-3ff2c4fe071f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000005c-000a-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T09:22:58.0507895+02:00","Level":"Information","MessageTemplate":"Products sorted by supplier...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"818320cf-69b5-44f9-8364-04135fccbe7d","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.SortBySupplier (Codecool.CodecoolShop)","RequestId":"80000107-0006-fe00-b63f-84710c7967bb","RequestPath":"/Product/SortBySupplier/1"}}
+{"Timestamp":"2022-07-07T09:22:59.0607613+02:00","Level":"Information","MessageTemplate":"Products sorted by category...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"d3834a46-8848-4db5-9a05-04c6513509c7","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.SortByCategory (Codecool.CodecoolShop)","RequestId":"80000032-0002-fd00-b63f-84710c7967bb","RequestPath":"/Product/SortByCategory/1"}}
+{"Timestamp":"2022-07-07T09:23:00.0074592+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"a21ca05d-17b2-4361-a7ee-3ff2c4fe071f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"800000af-0006-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T09:23:06.7958371+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"a21ca05d-17b2-4361-a7ee-3ff2c4fe071f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000051-0004-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T09:23:11.1170556+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"a21ca05d-17b2-4361-a7ee-3ff2c4fe071f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000053-0004-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T09:23:14.8012594+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"a21ca05d-17b2-4361-a7ee-3ff2c4fe071f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000047-0003-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T09:41:00.7866530+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T09:41:07.1602714+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"1e262b17-9b07-4acf-8e60-6927c543b350","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000005f-0004-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T09:44:35.0431803+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T09:44:38.9485899+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"b853513a-ec49-4add-a26f-b285494dac60","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"800000bc-0002-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:56:17.5660128+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T10:56:23.6605672+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"ab551dbe-0f74-46b1-b0fb-605d60c7bf4f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000021-000b-fe00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:56:26.4895142+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"ab551dbe-0f74-46b1-b0fb-605d60c7bf4f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"800000c4-0002-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:56:37.2066733+02:00","Level":"Information","MessageTemplate":"User logged in.","Properties":{"SourceContext":"Codecool.CodecoolShop.Areas.Identity.Pages.Account.LoginModel","ActionId":"0bbb66e1-afce-475a-a027-3991d5d58df9","ActionName":"/Account/Login","RequestId":"8000000e-000a-fb00-b63f-84710c7967bb","RequestPath":"/Identity/Account/Login"}}
+{"Timestamp":"2022-07-07T10:56:37.2198407+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"ab551dbe-0f74-46b1-b0fb-605d60c7bf4f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"800000ca-0002-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:56:43.9741368+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"ab551dbe-0f74-46b1-b0fb-605d60c7bf4f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000000e-0006-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:56:45.2065294+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"ab551dbe-0f74-46b1-b0fb-605d60c7bf4f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000075-000a-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:56:46.4857827+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"ab551dbe-0f74-46b1-b0fb-605d60c7bf4f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000074-0004-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:56:46.8628066+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"ab551dbe-0f74-46b1-b0fb-605d60c7bf4f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000002-0006-fc00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:56:47.2496449+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"ab551dbe-0f74-46b1-b0fb-605d60c7bf4f","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000006-0006-fc00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:57:09.6367109+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"3440f057-3c25-4eae-9883-497728c0511b","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"800000f4-0000-fe00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:58:07.9099353+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"a3b9f896-21b5-4a02-9f2a-2e4a9570b6e9","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000018-0008-fc00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:58:19.3172836+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T10:58:23.3177228+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"06e9b2f0-f9cd-4129-bf71-6d22014d60cf","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000006-0002-fc00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T10:58:52.3860917+02:00","Level":"Information","MessageTemplate":"User logged in.","Properties":{"SourceContext":"Codecool.CodecoolShop.Areas.Identity.Pages.Account.LoginModel","ActionId":"60e3dbe6-589f-4fb4-892c-618a6677c30f","ActionName":"/Account/Login","RequestId":"8000001e-0008-fc00-b63f-84710c7967bb","RequestPath":"/Identity/Account/Login"}}
+{"Timestamp":"2022-07-07T10:58:52.4778788+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"06e9b2f0-f9cd-4129-bf71-6d22014d60cf","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000020-0008-fc00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:02:57.3405149+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:15:14.8753994+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:23:25.4918524+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:23:29.5755728+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"5e3e68be-2fa7-4a70-8afb-dacfb4e41fc7","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000007b-000a-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:23:31.7171496+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"5e3e68be-2fa7-4a70-8afb-dacfb4e41fc7","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000007a-0004-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:23:47.9516361+02:00","Level":"Warning","MessageTemplate":"User validation failed: {errors}.","Properties":{"errors":"InvalidUserName","EventId":{"Id":13,"Name":"UserValidationFailed"},"SourceContext":"Microsoft.AspNetCore.Identity.UserManager","ActionId":"ff3a217c-9581-4dec-9c8c-7847e9101725","ActionName":"/Account/Register","RequestId":"8000007e-0004-fd00-b63f-84710c7967bb","RequestPath":"/Identity/Account/Register"}}
+{"Timestamp":"2022-07-07T11:24:11.2939497+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"5e3e68be-2fa7-4a70-8afb-dacfb4e41fc7","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000003f-0001-fe00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:38:23.0768172+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:38:28.4468739+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"39e65bbc-80e8-4b32-a44f-1f5e2cda7381","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000041-0001-fe00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:38:42.1479457+02:00","Level":"Information","MessageTemplate":"User logged in.","Properties":{"SourceContext":"Codecool.CodecoolShop.Areas.Identity.Pages.Account.LoginModel","ActionId":"6f778177-0ec6-45ec-8355-4068f42a9463","ActionName":"/Account/Login","RequestId":"80000094-0004-ff00-b63f-84710c7967bb","RequestPath":"/Identity/Account/Login"}}
+{"Timestamp":"2022-07-07T11:38:42.2317123+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"39e65bbc-80e8-4b32-a44f-1f5e2cda7381","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000024-0006-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:38:54.9088960+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:39:27.2861654+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:40:01.2627269+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:40:05.0656592+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"d63a66c2-cc4f-4ca2-90fb-7a286b967c63","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"80000028-0006-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:40:07.0555436+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"d63a66c2-cc4f-4ca2-90fb-7a286b967c63","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"800000e4-0002-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:40:20.8357947+02:00","Level":"Information","MessageTemplate":"User created a new account with password.","Properties":{"SourceContext":"Codecool.CodecoolShop.Areas.Identity.Pages.Account.RegisterModel","ActionId":"23c33845-2283-4fd7-9fd1-d287c737643e","ActionName":"/Account/Register","RequestId":"80000087-0004-fd00-b63f-84710c7967bb","RequestPath":"/Identity/Account/Register"}}
+{"Timestamp":"2022-07-07T11:40:20.9895584+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"d63a66c2-cc4f-4ca2-90fb-7a286b967c63","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"800000e8-0002-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:40:34.9489391+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:40:58.4285749+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:41:43.5999067+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:42:18.0795395+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:42:36.8413290+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"e3cdcc0d-85eb-434a-b772-a76f0c32428d","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000008b-0004-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:42:45.5357954+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"e3cdcc0d-85eb-434a-b772-a76f0c32428d","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000008d-0004-fd00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:43:08.0256310+02:00","Level":"Information","MessageTemplate":"User created a new account with password.","Properties":{"SourceContext":"Codecool.CodecoolShop.Areas.Identity.Pages.Account.RegisterModel","ActionId":"3fa26479-67cf-4803-87fd-a0a52565c25b","ActionName":"/Account/Register","RequestId":"80000029-0008-fc00-b63f-84710c7967bb","RequestPath":"/Identity/Account/Register"}}
+{"Timestamp":"2022-07-07T11:43:13.2453118+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"e3cdcc0d-85eb-434a-b772-a76f0c32428d","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000004f-0000-ff00-b63f-84710c7967bb","RequestPath":"/"}}
+{"Timestamp":"2022-07-07T11:44:00.2370860+02:00","Level":"Information","MessageTemplate":"Starting web host..."}
+{"Timestamp":"2022-07-07T11:44:08.0643649+02:00","Level":"Information","MessageTemplate":"Product page loaded...","Properties":{"SourceContext":"Codecool.CodecoolShop.Controllers.ProductController","ActionId":"f3eeaf51-11ce-4136-9433-2ec20c524873","ActionName":"Codecool.CodecoolShop.Controllers.ProductController.Index (Codecool.CodecoolShop)","RequestId":"8000004b-0001-fe00-b63f-84710c7967bb","RequestPath":"/"}}

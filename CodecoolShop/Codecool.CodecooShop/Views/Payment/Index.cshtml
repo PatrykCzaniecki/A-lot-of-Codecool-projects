@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Payment";
+}
+@model Domain.PaymentInfo;
+
+<h4>Choose form of payment:</h4>
+<p style="display: inline">Payment only by card!</p>
+<p>We apologize for any inconvenience.</p>
+
+<label for="fname">Accepted Cards:</label>
+<div>
+    <img src="~/img/creditcards.png" width="300"/>
+</div>
+
+<div class="content" style="width: 60%;">
+    <form asp-action="Index" asp-controller="Payment">
+        <div class="mb-3">
+            <label asp-for="NameOnCard" class="form-label"></label>
+            <input type="text" asp-for="NameOnCard" class="form-control" required pattern="^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$" placeholder="Jan Kowalski"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="CardNumber" class="form-label"></label>
+            <input type="text" asp-for="CardNumber" class="form-control" required pattern="[0-9]{16}" placeholder="1111222233334444">
+        </div>
+        <div class="mb-3">
+            <label asp-for="ExpMonth" class="form-label"></label>
+            <input type="text" asp-for="ExpMonth" class="form-control" required pattern="[0-9]{2}" placeholder="06">
+        </div>
+        <div class="mb-3">
+            <label asp-for="ExpYear" class="form-label"></label>
+            <input type="text" asp-for="ExpYear" class="form-control" required pattern="[0-9]{2}" placeholder="22">
+        </div>
+        <div class="mb-3">
+            <label asp-for="CVV" class="form-label"></label>
+            <input type="text" asp-for="CVV" class="form-control" required pattern="[0-9]{3}" placeholder="123">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
